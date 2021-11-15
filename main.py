@@ -1,9 +1,9 @@
 import speech_recognition as sr
-from time import ctime
 import webbrowser
 import pyttsx3
 import datetime
 import os
+from time import ctime
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
@@ -37,7 +37,6 @@ def wishMe():
     jarvisSpeak('I am Online and ready to help you, please tell me what you need ,and i will do as you wish')
 
 def recordAudio():
-    
     try:
         r = sr.Recognizer()
         with sr.Microphone() as source:
@@ -57,7 +56,7 @@ def recordAudio():
             return voice_data
     except Exception as e:
         print(e)
-        return  False
+        return False
 
 def respond(voice_data):
 
@@ -65,7 +64,7 @@ def respond(voice_data):
 
         # '''Jokes'''
         if 'what is your name' in voice_data:
-            jarvisSpeak('my name is Jarvis sir, you\'re personal assistant sir,'\
+            jarvisSpeak('my name is Jarvis sir, your personal assistant sir,'\
                         ' How come you forget my name,sir?')
             
         
@@ -253,14 +252,10 @@ def respond(voice_data):
         # '''EXIT'''
         elif 'exit' in voice_data:
             jarvisSpeak('bye sir')
-            exit()
-
-        else:
-            jarvisSpeak('sorry sir, i didn\t know what you meant,please say that again')
-            
+            exit() 
 
     # return voice_data
 
 if __name__ == '__main__':
-    voice_data = 'what time is it?'
+    voice_data = recordAudio()
     respond(voice_data)

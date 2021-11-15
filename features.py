@@ -11,7 +11,6 @@ from geopy.geocoders import Nominatim
 from time import sleep
 
 
-
 def youtubeSearch(voice_data):
     from main import jarvisSpeak
     results = 'https://www.youtube.com/results?search_query?=' + voice_data
@@ -188,4 +187,4 @@ def dateConverter(query):
 
     return date
 
-alarmSet('set alarm for 17 and 57')
+alarmSet('set alarm for 12 and 55')
