@@ -8,7 +8,6 @@ import wikipedia
 from pywikihow import search_wikihow
 from geopy.distance import great_circle
 from geopy.geocoders import Nominatim
-from time import sleep
 
 
 def youtubeSearch(voice_data):
