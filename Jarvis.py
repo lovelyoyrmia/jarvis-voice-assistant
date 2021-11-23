@@ -45,7 +45,7 @@ class  Gui_Start(QtWidgets.QMainWindow):
     
     def startApp(self):
        
-        wake_up = 'wake up'
+        wake_up = recordAudio()
 
         if 'wake up' in wake_up:  
 
