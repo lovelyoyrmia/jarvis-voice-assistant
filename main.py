@@ -147,7 +147,6 @@ def respond(voice_data):
 
         # '''GOOGLE'''
         elif 'google' in voice_data:
-            
             jarvisSpeak('Ok sir, as you wish, i will open the google')
             url = 'https://google.com'
             webbrowser.open(url)
