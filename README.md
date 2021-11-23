@@ -10,3 +10,10 @@ Jarvis can do
 - Singing
 - NASA News
 - Alarm
+
+
+How to start 
+1. Create Virtual Env
+2. Activate Virtual Env
+3. Pip install requirements.txt
+4. Run python Jarvis.py
