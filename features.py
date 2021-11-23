@@ -187,4 +187,3 @@ def dateConverter(query):
 
     return date
 
-alarmSet('set alarm for 12 and 55')
