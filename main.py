@@ -69,7 +69,7 @@ def respond(voice_data):
             
         
         elif 'who am I' in voice_data:
-            jarvisSpeak('i\'m sorry i forget sir hahahahahahahahaha?')
+            jarvisSpeak('i\'m sorry i forget sir .')
             
 
         elif 'jarvis jarvis' in voice_data:
@@ -77,10 +77,10 @@ def respond(voice_data):
             
         
         elif 'yes' in voice_data:
-            jarvisSpeak('but you don\'t have enough money sir hahahahahahahaha')
+            jarvisSpeak('but you don\'t have enough money sir .')
             
         elif 'no jarvis' in voice_data:
-            jarvisSpeak('i am sorry sir, i\'m just curious')
+            jarvisSpeak('i am sorry sir, i\'m just curious .')
             
 
         elif 'sing' in voice_data:
