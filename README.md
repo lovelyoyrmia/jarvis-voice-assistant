@@ -1,5 +1,7 @@
 # Jarvis Voice Assistant
 
+I built this website was actually to help me do some task, such as open up google, vscode, spotify, youtube, and so on. Tools i use is Speech Recognition and Voice engine from python.
+
 Jarvis can do
 - Youtube Search
 - Google Search
