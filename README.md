@@ -22,4 +22,4 @@ How to start
 
 ## Example
 
-<img src="asset/jarvis.png" width="400px"><img src="guess.JPG" width="400px">
+<img src="asset/jarvis.png">
